@@ -16,5 +16,3 @@ class Server:
             return True
         else:
             return False
-
-print(myping("54.245.39.214"))
