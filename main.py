@@ -10,14 +10,5 @@ if __name__ == '__main__':
     print_program_info()
 
 from Server import Server
-import os
 
-def myping(host):
-    response = os.system("ping -c 1 " + host)
-    
-    if response == 0:
-        return True
-    else:
-        return False
-        
-print(myping("54.245.39.214"))
+print(Server.ping("54.245.39.214"))
