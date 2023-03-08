@@ -9,8 +9,7 @@ def print_program_info():
 if __name__ == '__main__':
     print_program_info()
 
-# Server object created in ECS
-
+from Server import Server
 import os
 
 def myping(host):
