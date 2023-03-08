@@ -11,7 +11,7 @@ class Server:
         self.server_ip = server_ip
 
     def ping(self):
-        response = os.system("ping -c 1 " + self)
+        response = os.system("ping -c 5 " + self)
         if response == 0:
             return True
         else:
