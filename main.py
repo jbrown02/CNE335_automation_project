@@ -1,6 +1,6 @@
 # Joshua Brown
 # 3/21/23
-# CNE 335 Winter - Final Project
+# CNE 335 Winter - Server Automator
 
 from Server import Server
 
