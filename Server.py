@@ -1,6 +1,6 @@
 # Joshua Brown
 # 3/21/23 - Winter
-# CNE 335 - Server Automation
+# CNE 335 - Server Automator
 
 import os
 import paramiko
